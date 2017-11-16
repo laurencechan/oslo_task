@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="98010183-5112-4204-a776-68503f1243b4" name="10.10" url="http://10.172.10.10">
+        <fileTransfer host="10.172.10.10" port="22" rootFolder="/usr/lib/python2.7/site-packages/oslo_task" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="bd08ca75-45b4-40ba-a8a5-08cb2e6ea850" name="10.172.10.180" url="http://10.172.10.180">
+        <fileTransfer host="10.172.10.180" port="22" rootFolder="/usr/lib/python2.7/site-packages/oslo_task" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
